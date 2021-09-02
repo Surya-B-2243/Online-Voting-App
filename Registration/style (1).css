@@ -1,0 +1,85 @@
+body {
+background: #EB3349;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.formdiv {
+	
+	margin-top: 92px;
+	margin-left: 270px;
+  width: 70%;
+background: #BBD2C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.signal {
+  margin-left: 55px;
+  padding: 35px;
+}
+.signup {
+  float: right;
+  position: relative; 
+  height: 400px;
+  width: 430px;
+
+}
+.login {
+  float: right;
+  position: relative;
+  height: 400px;
+  width: 430px;
+
+}
+.form-group {
+  font-size: 22px;
+  color: #efefbb;
+	width: 40%;
+margin-left: 70px;
+}
+#btn {
+	margin-left: 70px;
+
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+@media (max-width: 800px) {
+  .formdiv{
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+  }
+  body{
+    height: 200px;
+  }
+  .form-group {
+    width: 70%;
+  }
+  .signal {
+
+    margin-left: 60px;
+    padding: 10px;
+    
+  }
+  .signup {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+
+}

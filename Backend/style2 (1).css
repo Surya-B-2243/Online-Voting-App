@@ -1,0 +1,119 @@
+*{
+padding: 0px; margin: 0px;
+ 
+box-sizing: border-box;
+}
+
+body{
+	background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+	
+	}
+
+.container { height: 80vh;
+/* border: 2px solid red; */ display: flex;
+justify-content: center; align-items: center;
+}
+
+
+
+/* This is Box1 */
+
+
+.box1 {
+	box-shadow: 5px 5px 5px;
+border: 2px solid ; 
+background: #870000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 50vh;
+width: 45vh; margin: 0px 30px; padding: 3px 10px; text-align: center; border-radius: 13px;
+}
+
+
+.box1 .hea_box1 { border: 2px solid pink;
+background: #E44D26;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color:  #ffffff;
+border-radius: 10px; margin: 10px 0px; padding: 10px 0px; font-size: 1.4rem; font-weight: bold;
+ font-size: 30px;
+}
+
+
+.box1 .image {
+/* border: 2px solid red; */ padding: 10px 0px; margin: 15px 0px;
+}
+
+
+.box1 img { height: 147px; width: 283px;
+}
+
+
+.box1 .btn { height: 100px; width: 240px;
+/*background-color: rgb(240, 180, 68); */
+background-color: rgb(117, 7, 7);
+border-radius: 20px;
+border: 2px solid rgb(185, 124, 2); 
+font-size: 2rem;
+font-weight: bold; 
+color: blue; 
+cursor: pointer;
+}
+
+
+.box1 .btn:hover {
+background-color: rgb(243, 190, 91); color: white;
+}
+
+
+
+/* This is Box2 */
+
+
+.box2 {
+ box-shadow: 5px 5px 5px;
+border: 2px solid ;
+background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 50vh;
+width: 45vh; margin: 0px 30px; padding: 3px 10px; text-align: center; border-radius: 13px;
+}
+
+
+.box2 .hea_box2 { border: 2px solid pink;
+background: #E44D26;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color:  #ffffff;
+border-radius: 10px; margin: 10px 0px; padding: 10px 0px; font-size: 1.4rem; font-weight: bold;
+font-size: 30px;
+}
+
+
+.box2 .image {
+/* border: 2px solid red; */ padding: 10px 0px; margin: 15px 0px;
+}
+
+
+.box2 img { height: 147px; width: 283px;
+}
+
+
+.box2 .btn { height: 100px;
+ 
+width: 240px;
+background-color: rgb(96, 238, 96); 
+border-radius: 20px;
+border: 2px solid rgb(31, 133, 31); font-size: 2rem;
+font-weight: bold; color: blue; cursor: pointer;
+}
+
+
+.box2 .btn:hover {
+background-color: rgb(104, 197, 117); color: white;
+}
